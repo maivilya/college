@@ -1,0 +1,131 @@
+body {
+    min-width: 1440px;
+    font-family: "Robot", "Arial", sans-serif;
+    font-weight:  normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.container {
+    width: 1380px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-header-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+.site-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: stretch;
+    list-style: none;
+}
+
+.site-navigation-item, a {
+    color: #151c22;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Robot", "Arial", sans-serif;
+}
+
+.item-link {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+    font-size: 18px;
+    transition: font-size 0.3s;
+    order: 1;
+}
+
+.item-link:hover {
+    font-size: 21px;
+    color: aqua;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviews-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.reviews-item, article {
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-link {
+    order: 1;
+}
+
+.reviews-link:hover {
+    color: orange;
+}
+
+.main-footer {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: stretch;
+    list-style: none;
+}
+
+.footer-navigation-item, a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Robot", "Arial", sans-serif;
+}
+
+.footer-link-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: stretch;
+    list-style: none;
+}
+
+.footer-link-item, a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip:  rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.image-under-water {
+    width: 100%;
+    height: auto;
+}
